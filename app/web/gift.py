@@ -12,7 +12,7 @@ from app.service.gift import GiftService
 from app.models import db
 from app.models.gift import Gift
 
-__author__ = '七月'
+__author__ = 'yuruhao'
 
 
 @web.route('/my/gifts')

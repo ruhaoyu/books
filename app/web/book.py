@@ -11,7 +11,7 @@ from app.view_models.book import BookViewModel, BookCollection
 from app.models.gift import Gift
 from app.models.wish import Wish
 
-__author__ = '七月'
+__author__ = 'yuruhao'
 
 
 @web.route('/book/search/', methods=['Get', 'POST'])
@@ -91,8 +91,7 @@ def book_detail(isbn):
         if Wish.query.filter_by(uid=current_user.id, isbn=isbn,
                                 launched=False).first():
             has_in_wishes = True
-
-    book = BookViewModel(yushu_book.first)
+    book = BookViewModel(yushu_book.books[0])
     # if has_in_gifts:
     trade_wishes = Wish.query.filter_by(isbn=isbn, launched=False).all()
     trade_gifts = Gift.query.filter_by(isbn=isbn, launched=False).all()

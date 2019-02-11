@@ -10,7 +10,7 @@ from app.models.user import User
 from app.models import db
 from app.libs.email import send_email
 
-__author__ = '七月'
+__author__ = 'yuruhao'
 
 
 @web.route('/register', methods=['GET', 'POST'])

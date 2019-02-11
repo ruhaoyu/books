@@ -1,7 +1,7 @@
 """
- Created by 七月 on 2017/12/16.
+ Created by yuruhao on 2017/12/16.
 """
-__author__ = '七月'
+__author__ = 'yuruhao'
 
 from collections import namedtuple
 

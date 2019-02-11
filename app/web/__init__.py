@@ -1,6 +1,6 @@
 from flask import Blueprint, url_for
 
-__author__ = '七月'
+__author__ = 'yuruhao'
 
 web = Blueprint('web', __name__, template_folder='templates')
 

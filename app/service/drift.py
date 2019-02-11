@@ -1,5 +1,5 @@
 """
- Created by 七月 on 2017/12/15.
+ Created by yuruhao on 2017/12/15.
 """
 from app.models import db
 from app.models.drift import Drift
@@ -7,7 +7,7 @@ from app.view_models.book import BookViewModel
 from flask_login import current_user
 from app.libs.email import send_email
 
-__author__ = '七月'
+__author__ = 'yuruhao'
 
 
 class DriftService:

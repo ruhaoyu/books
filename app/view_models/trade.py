@@ -1,7 +1,7 @@
 """
- Created by 七月 on 2018-1-29.
+ Created by yuruhao on 2018-1-29.
 """
-__author__ = '七月'
+__author__ = 'yuruhao'
 
 
 class TradeInfo:

@@ -13,7 +13,7 @@ from app import cache
 from . import web
 from app.models.gift import Gift
 
-__author__ = '七月'
+__author__ = 'yuruhao'
 
 
 @web.route('/drift/<int:gid>', methods=['GET', 'POST'])

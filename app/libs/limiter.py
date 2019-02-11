@@ -1,12 +1,12 @@
 """
- Created by 七月 on 2018/1/9.
+ Created by yuruhao on 2018/1/9.
 """
 
 import functools
 from flask import current_app
 from werkzeug.contrib.cache import SimpleCache
 
-__author__ = '七月'
+__author__ = 'yuruhao'
 
 
 class Limiter(object):

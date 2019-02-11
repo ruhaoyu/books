@@ -12,7 +12,7 @@ from app import limiter
 from app.models import db
 from app.models.wish import Wish
 
-__author__ = '七月'
+__author__ = 'yuruhao'
 
 
 def limit_key_prefix():

@@ -9,7 +9,7 @@ from app.libs.email import mail
 from flask_cache import Cache
 from app.libs.limiter import Limiter
 
-__author__ = '七月'
+__author__ = 'yuruhao'
 
 login_manager = LoginManager()
 cache = Cache(config={'CACHE_TYPE': 'simple'})

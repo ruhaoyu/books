@@ -1,5 +1,5 @@
 """
- Created by 七月 on 2017/12/15.
+ Created by yuruhao on 2017/12/15.
 """
 from app import cache
 from app.models.gift import Gift
@@ -9,7 +9,7 @@ from sqlalchemy import func, desc
 from app.models import db
 from app.models.wish import Wish
 
-__author__ = '七月'
+__author__ = 'yuruhao'
 
 
 class GiftService:

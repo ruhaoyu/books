@@ -1,12 +1,12 @@
 """
- Created by 七月 on 2017/12/15.
+ Created by yuruhao on 2017/12/15.
 """
 from app.models.wish import Wish
 from sqlalchemy import func
 from app.models import db
 from app.models.gift import Gift
 
-__author__ = '七月'
+__author__ = 'yuruhao'
 
 
 class WishService:

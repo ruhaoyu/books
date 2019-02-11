@@ -6,7 +6,7 @@ from . import web
 
 from app.models.gift import Gift
 
-__author__ = '七月'
+__author__ = 'yuruhao'
 
 
 # def __current_user_status_change():
