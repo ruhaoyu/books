@@ -16,6 +16,7 @@ from sqlalchemy import SmallInteger, Integer, Float
 from sqlalchemy.orm import relationship
 from app.models.base import db, Base
 from app import login_manager
+from app.spider.yushu_book import YuShuBook
 
 
 class User(UserMixin, Base):
@@ -70,7 +71,7 @@ class User(UserMixin, Base):
     def can_save_to_list(self, isbn):
         if is_isbn_or_key(isbn) != 'isbn':
             return False
-        yushu_book = YushuBook()
+        yushu_book = YuShuBook()
         yushu_book.search_by_isbn(isbn)
         if not yushu_book.first:
             return False
